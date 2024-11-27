@@ -28,7 +28,7 @@ function createBot() {
   const bot = mineflayer.createBot({
     host: 'minekrapjihyo.aternos.me',
     version: false, // Replace with specific version, e.g., '1.16.5' if needed
-    username: 'HotJihyo',
+    username: 'AltJihyo',
     port: 53281,
     plugins: [],
   });
