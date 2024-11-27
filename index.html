@@ -1,0 +1,14 @@
+    <html>
+      <head>
+        <title>Bot Status</title>
+        <style>
+          body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+          h1 { color: #4CAF50; }
+          .status { font-size: 20px; font-weight: bold; color: ${botStatus === "Connected" ? 'green' : 'red'}; }
+        </style>
+      </head>
+      <body>
+        <h1>Bot Status</h1>
+        <p class="status">The bot is currently: ${botStatus}</p>
+      </body>
+    </html>
